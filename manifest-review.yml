@@ -7,4 +7,4 @@ applications:
   routes: 
   - route: pal-tracker-nirmalreview.apps.evans.pal.pivotal.io
   env:
-    WELCOME_MESSAGE: Hello from Cloud Review Foundry
+    WELCOME_MESSAGE: Hello from the review environment
