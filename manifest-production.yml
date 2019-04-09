@@ -1,0 +1,10 @@
+---
+applications:
+- name: pal-tracker
+  path: src/PalTracker/bin/Release/netcoreapp2.2/publish/
+  buildpacks:
+  - https://github.com/cloudfoundry/dotnet-core-buildpack.git#v2.2.8
+  routes: 
+  - route: pal-tracker-nirmalproduction.apps.evans.pal.pivotal.io
+  env:
+    WELCOME_MESSAGE: Hello from Cloud Production Foundry
