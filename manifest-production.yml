@@ -7,4 +7,4 @@ applications:
   routes: 
   - route: pal-tracker-nirmalproduction.apps.evans.pal.pivotal.io
   env:
-    WELCOME_MESSAGE: Hello from Cloud Production Foundry
+    WELCOME_MESSAGE: Hello from the production environment
